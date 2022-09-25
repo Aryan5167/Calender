@@ -1,0 +1,103 @@
+body{
+    margin:0px;
+    font-family: serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #40514E;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0, 0.2)),url(https://cdn.pixabay.com/photo/2013/04/13/23/55/sesto-calende-103474_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.view{
+    width:24rem;
+    height:22rem;
+    border:4px solid #1C6758;
+    background-color:  #D7C0AE;
+    border-radius: 8px;
+}
+
+.month{
+    background-color: #5F6F94;
+    color: white;
+    display: flex;
+    width: 100%;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.prev{
+    margin-left: 9px;
+}
+
+.next{
+    margin-right: 9px;
+}
+
+
+.prev :hover{
+    cursor:pointer;
+}
+
+.next:hover{
+    cursor:pointer;
+}
+.weekdays{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #97D2EC;
+    color: black;
+     font-weight: 600;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top:20px;
+    
+}
+
+.days div{
+    width: 14.28%; 
+    margin-bottom: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.today{
+    background-color: #748DA6;
+    border-radius: 100px;
+}
+
+.days div:hover{
+    background-color: #AEBDCA;
+    border: 0px solid;
+    border-radius: 9px;
+    cursor:pointer;
+}
+
+.prevdate{
+    opacity: 0.5;
+}
+
+
+
+
